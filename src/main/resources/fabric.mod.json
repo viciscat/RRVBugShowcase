@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "rrvbugshowcase",
+  "version": "${version}",
+  "name": "RRVBugShowcase",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/rrvbugshowcase/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "io.github.viciscat.rrvbugshowcase.client.RrvbugshowcaseClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
